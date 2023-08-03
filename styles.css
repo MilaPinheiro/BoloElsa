@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border-top: 3px solid rgb(185, 67, 67);
+}
+
+nav{
+   position: relative;
+    width: 50%;
+    margin:auto ;
+    display: flex;
+    padding: 20px 0;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.border{
+    border-right: 2px solid rgb(185, 67, 67);
+    border-left: 2px solid rgb(185, 67, 67);
+}
+
+li{
+    list-style: none;
+    padding: 0 20px;
+    
+    
+}
+a{
+  text-decoration: none;
+  color: rgb(185, 67, 67);
+}
+
+.imglog{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 0px;
+    background-color:rgb(185, 67, 67) ;
+}
+
+main{
+    background-color: rgb(236, 223, 225);
+}
+
+.firstSection{
+    border-bottom: 1px solid rgb(114, 104, 104);
+}
+
+.firstSection-container{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.firstSection-container-div{
+    width: 80%;
+    margin-right: 100px;
+}
+
+.firstSection-container-title{
+    font-size: 40px;
+    color: rgb(185, 67, 67);
+}
+
+.firstSection-container-p{
+    font-size: 20px;
+    color: rgb(185, 67, 67);
+}
+
+.firstSection-container-span{
+    font-size: 13px;
+    color: rgb(185, 67, 67);
+}
+
+.firstSection-container-divTwo{
+    width:  90%;
+}
