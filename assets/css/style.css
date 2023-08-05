@@ -21,7 +21,7 @@ header {
 .header-nav-logo {
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 34px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -48,7 +48,7 @@ header {
 }
 
 .header-nav-ul-li-a {
-    font-size: 17px;
+    font-size: 24px;
     text-decoration: none;
     font-style: normal;
     font-weight: 200;
@@ -73,6 +73,14 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
 }
 
 /* First section */
@@ -102,7 +110,9 @@ header {
     font-weight: 600;
     line-height: normal;
     color: #1D1D1D;
+    
 }
+
 
 .sapanBolo {
     color: #FFCB45;

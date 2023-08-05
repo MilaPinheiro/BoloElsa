@@ -1,0 +1,247 @@
+
+@media (max-width: 600px) {
+
+    .header{
+        background-color: #FFF9EA;
+        width: 100%;
+    }
+
+    .header-nav {
+       display: none;
+    }
+
+
+    .main-firstSection-divCenter-welcome-title{
+        margin-top: 40px;
+        text-align: center;
+        font-size: 30px;
+       
+    }
+
+    .main-firstSection-divCenter-welcome-text{
+       display: none;
+       
+    }
+    
+   .main-firstSection-divCenter-welcome-button{
+         margin: auto;
+         margin-top: 40px;
+         width: 60%;
+   }
+    
+  
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    
+    .mobile-menu {
+        display: none;
+        background-color: #FFF9EA;
+        border-radius: 10px;
+        position: fixed;
+        z-index: 1;
+        margin-left: 130px;
+    }
+
+    .mobile-menu .header-nav-logo{
+        background-color: #FFCB45;
+      
+    }
+
+    .mobile-menu p {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       color: #FFF9EA;
+       
+    }
+
+    .mobile-menu .nav-ul-li {
+        display: block;
+        margin-bottom: 20px;
+       
+    }
+
+    .mobile-menu .nav-ul-li a{
+        color: black;
+       
+    }
+
+    .nav-ul-li:first-child {
+        text-align: center;
+    
+    }
+
+    .nav-ul-li-a{
+        font-size: 15px;
+        
+    }
+
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 28px 10px;
+        background-color: #FFF9EA;
+       
+    }
+
+    .mobile-menu-icon button {
+        border: none;
+        background: transparent;   
+    }
+
+    .header-nav-ul button {
+        font-size: 15px;
+        color: #FFF9EA;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .main-firstSection{
+        width: 100%;
+        
+    }
+
+    .main-firstSection-divCenter:nth-child(1){
+        flex-direction: column-reverse;
+       
+    }
+
+    .main-firstSection-divCenter{
+        display: flex;
+        flex-direction: column;
+         width: 90%;
+    }
+    .main-firstSection-divCenter-fictures{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .main-firstSection-divCenter-fictures img{
+       width: 100%;
+       border: 2px solid #FFCB45;
+       border-radius: 25%;
+       box-shadow: 0px 3px 4px 0px rgb(184, 172, 172);
+     
+    }
+
+    .main-secondSection-divCenter-text{
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .main-secondSection-divCenter-divCards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-secondSection-divCenter-divCards-cards-img {
+        width: 50%;
+        
+    }
+
+    .main-secondSection-divCenter-divCards-cards{
+        margin-bottom: 30px;
+        border: 5px solid  #FFF9EA;
+        border-radius: 40px;
+        padding: 20px;
+       
+    }
+
+
+    .main-thirdSection-divCenter-text{
+        padding: 0;
+
+    }
+
+    .main-thirdSection-divCenter-DivCard{  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-thirdSection-divCenter-DivCard-cards{
+        display: flex;
+    }
+
+    .main-thirdSection-divCenter-DivCard-cards-divImg img{
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .main-thirdSection-divCenter-DivCard-cards-information{
+        margin-top: 45px;
+        
+    }
+
+    .main-thirdSection-divCenter-DivCard-cards-information-text1{
+        color: #FFCB45;
+        font-weight: bold;
+    }
+
+    .main-thirdSection-divCenter-DivCard-cards-information-divPrice-span1{
+        font-size: 16px;
+        
+    }
+
+    .main-thirdSectio{
+        display: none;
+    }
+
+    .main-fourthSection-divCenter{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+      
+    }
+
+    .main-fourthSection-divCenter-divAbout{
+        margin-right: 0;
+        margin-top: 30px;
+    }
+
+    .main-fourthSection-divCenter-divAbout-text {
+        text-align: left;
+    }
+
+    .main-fourthSection-divCenter-divAbout-title{
+     display: none;
+        
+    }
+
+    .main-fourthSection-divCenter-divAbout-divCinza-text {
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .main-fifthSection-text{
+        font-size: 20px;
+    }
+
+
+    .footer-divCenter-container-h3  img {
+        display: none;
+    }
+    
+    .footer-divCenter-container-texttitle{
+        font-size: 12px;
+    }
+
+    .footer-divCenter-container-h3{
+        font-size: 12px;
+    }
+
+    .footer-divCenter-container-text{
+        font-size: 10px;
+    }
+}

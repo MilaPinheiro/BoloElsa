@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsivo.css">
 </head>
 
 <body>
@@ -20,15 +21,33 @@
         <nav class="header-nav">
             <p class="header-nav-logo">BoloDaElza <img src="./assets/img/cake.png" width="6%"> </p>
             <ul class="header-nav-ul">
-                <li class="header-nav-ul-li"><a href="" class="header-nav-ul-li-a">Início</a></li>
-                <li class="header-nav-ul-li"><a href="" class="header-nav-ul-li-a">Menu</a></li>
-                <li class="header-nav-ul-li"><a href="" class="header-nav-ul-li-a">Como Trabalhamos</a></li>
-                <li class="header-nav-ul-li"><a href="" class="header-nav-ul-li-a">Sobre</a></li>
-                <li class="header-nav-ul-li"><a href="" class="header-nav-ul-li-a">Contatos</a></li>
+                <li class="nav-ul-li"><a href="" class="header-nav-ul-li-a">Início</a></li>
+                <li class="nav-ul-li"><a href="" class="header-nav-ul-li-a">Menu</a></li>
+                <li class="nav-ul-li"><a href="" class="header-nav-ul-li-a">Como Trabalhamos</a></li>
+                <li class="nav-ul-li"><a href="" class="header-nav-ul-li-a">Sobre</a></li>
+                <li class="nav-ul-li"><a href="" class="header-nav-ul-li-a">Contatos</a></li>
                 <button class="header-nav-button">Comprar</button>
             </ul>
         </nav>
+        <div class="mobile-menu-icon">
+
+          <button onclick="menuShow()"><img class="icon" src="./assests/responsivo/hamburguer-button.svg"
+                  alt="img button"></button>
+        </div>
     </header>
+
+        <nav class="mobile-menu">
+          <p class="header-nav-logo">BoloDaElza <img src="./assets/img/cake.png" width="6%"> </p>
+          <ul class="header-nav-ul">
+              <li class="nav-ul-li"><a href="" class="header-nav-ul-li-a">Início</a></li>
+              <li class="nav-ul-li"><a href="" class="header-nav-ul-li-a">Menu</a></li>
+              <li class="nav-ul-li"><a href="" class="header-nav-ul-li-a">Como Trabalhamos</a></li>
+              <li class="nav-ul-li"><a href="" class="header-nav-ul-li-a">Sobre</a></li>
+              <li class="nav-ul-li"><a href="" class="header-nav-ul-li-a">Contatos</a></li>
+              <button class="header-nav-button">Comprar</button>
+          </ul>
+      </nav>
+
     <main class="main">
         <section class="main-firstSection">
             <div class="main-firstSection-divCenter">
@@ -49,7 +68,7 @@
         <section class="main-secondSection">
             <div class="main-secondSection-divCenter">
                 <p class="main-secondSection-divCenter-work">Como trabalhamos</p>
-                <h2 class="main-secondSection-divCenter-serve">Quais nossos serviços</h2>
+                <h2 class="main-secondSection-divCenter-serve">Nossos serviços</h2>
                 <p class="main-secondSection-divCenter-text">A qualidade do produto é nossa prioridade, e sempre garante
                     total segurança até que esteja em suas
                     mãos.</p>
@@ -164,7 +183,7 @@
             <div class="footer-divCenter">
                 <div class="footer-divCenter-container">
                     <h3 class="footer-divCenter-container-h3 food">BoloDaElza <img src="./assets/img/cake.png" width="15%" alt=""></h3>
-                    <p class="footer-divCenter-container-texttitle">Jalan Semangka Raya, Telaga Murni,Cikarang Barat, Kab.
+                    <p class="footer-divCenter-container-texttitle">Jalan Semangka Raya, Kab.
                         Bekasi</p>
                     <div class="footer-divCenter-container-divImg"><img src="" alt=""><img src="" alt=""><img src=""
                             alt=""></div>
@@ -179,7 +198,7 @@
                     <h3 class="footer-divCenter-container-h3">Política</h3>
                     <p class="footer-divCenter-container-text">FAQ</p>
                     <p class="footer-divCenter-container-text">Privacidade</p>
-                    <p class="footer-divCenter-container-text">Shipping</p>
+                    <p class="footer-divCenter-container-text">Shopping</p>
                 </div>
                 <div class="footer-divCenter-container">
                     <h3 class="footer-divCenter-container-h3">Entre em Contato</h3>
@@ -187,9 +206,9 @@
                     <p class="footer-divCenter-container-text">food@example.com</p>
                 </div>
             </div>
-            <p class="diereitos">20220 todos direitos reservados</p>
+            <p class="diereitos">2023 todos direitos reservados</p>
         </footer>
     </main>
 </body>
-
+<script src="./script.js"></script>
 </html>
