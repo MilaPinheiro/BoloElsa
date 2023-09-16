@@ -160,7 +160,7 @@
 
     .main-thirdSection-divCenter-text{
         padding: 0;
-
+   
     }
 
     .main-thirdSection-divCenter-DivCard{  
@@ -172,16 +172,24 @@
 
     .main-thirdSection-divCenter-DivCard-cards{
         display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
 
     .main-thirdSection-divCenter-DivCard-cards-divImg img{
-        width: 80%;
-        margin-top: 20px;
+        width: 90%;
+        margin-bottom: 20px;
     }
 
+
+    .main-thirdSection-divCenter-popular{
+        font-size: 30px;
+    }
+
+
     .main-thirdSection-divCenter-DivCard-cards-information{
-        margin-top: 45px;
-        
+        width: 70%;
     }
 
     .main-thirdSection-divCenter-DivCard-cards-information-text1{
@@ -192,6 +200,12 @@
     .main-thirdSection-divCenter-DivCard-cards-information-divPrice-span1{
         font-size: 16px;
         
+    }
+
+    .main-thirdSection-divCenter-DivCard-button{
+        width: 50%;
+        font-size: 15px;
+        padding: 30px 0px;
     }
 
     .main-thirdSectio{
@@ -211,7 +225,8 @@
     }
 
     .main-fourthSection-divCenter-divAbout-text {
-        text-align: left;
+        text-align: center;
+        font-size: 30px;
     }
 
     .main-fourthSection-divCenter-divAbout-title{
@@ -221,11 +236,22 @@
 
     .main-fourthSection-divCenter-divAbout-divCinza-text {
         padding-right: 0;
-        text-align: left;
+        text-align: center;
+        font-size: 18px;
     }
-
+   
+ 
     .main-fifthSection-text{
         font-size: 20px;
+      
+    }
+
+    .main-fifthSection-button{
+        width: 40%;
+    }
+
+    .footer {
+        margin-top: 0;
     }
 
 

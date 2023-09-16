@@ -8,6 +8,7 @@
 header {
     background-color: #FFF9EA;
     padding: 25px 0;
+    padding-top: 30px;
 }
 
 .header-nav {
@@ -29,6 +30,10 @@ header {
 
 .header-nav-logo img {
     margin-left: 10px;
+}
+
+.header-nav-logo:hover{
+  color:#FFCB45;
 }
 
 .header-nav-ul {
@@ -61,7 +66,7 @@ header {
     display: flex;
     width: 166px;
     height: 39.603px;
-    padding: 12px 24px;
+    padding: 32px 24px;
     justify-content: center;
     align-items: center;
     gap: 16px;
@@ -69,10 +74,15 @@ header {
     border: #FFCB45;
     background-color: #FFCB45;
     border-radius: 50px;
-    font-size: 14px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.header-nav-button:hover {
+    color: white;
+    transition: 0.6s;
 }
 
 .mobile-menu-icon{
@@ -84,14 +94,17 @@ header {
 }
 
 /* First section */
+
+
 .main-firstSection {
     background-color: #FFF9EA;
+    
 }
 
 .main-firstSection-divCenter {
-    width: 80%;
+    width: 70%;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
 }
 
@@ -103,7 +116,7 @@ header {
 }
 
 .main-firstSection-divCenter-welcome-title {
-    font-size: 38px;
+    font-size: 48px;
     width: 100%;
     margin-bottom: 10px;
     font-style: normal;
@@ -130,19 +143,25 @@ header {
 
 .main-firstSection-divCenter-welcome-button {
     display: flex;
-    width: 122px;
-    height: 38.133px;
-    padding: 12px 24px;
+    padding: 15px 20px;
     justify-content: center;
     align-items: center;
     gap: 16px;
     border-radius: 50px;
     background-color: #FFCB45;
-    font-size: 14px;
+    font-size: 24px;
     border: #FFCB45;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    width: 25%;
+   
+}
+
+.main-firstSection-divCenter-welcome-button:hover{
+   color: white;
+   transition: 0.6s;
+   
 }
 
 .main-firstSection-divCenter-fictures {
@@ -180,7 +199,7 @@ header {
 
 .main-secondSection-divCenter-work {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 80px;
     margin-bottom: 7px;
     font-style: normal;
@@ -192,7 +211,7 @@ header {
 .main-secondSection-divCenter-serve {
     margin-bottom: 26px;
     text-align: center;
-    font-size: 32px;
+    font-size: 42px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -201,7 +220,7 @@ header {
 
 .main-secondSection-divCenter-text {
     text-align: center;
-    font-size: 17px;
+    font-size: 27px;
     font-style: normal;
     font-weight: 200;
     padding: 0 250px;
@@ -217,6 +236,8 @@ header {
 
 .main-secondSection-divCenter-divCards-cards {
     text-align: center;
+    margin-top: 50px;
+    width: 100%;
 }
 
 .main-secondSection-divCenter-divCards-cards-title {
@@ -237,14 +258,20 @@ header {
     color: rgba(29, 29, 29, 0.70);
 }
 
+.main-secondSection-divCenter-divCards-cards-img{
+    width: 50%;
+   
+}
+
 .main-thirdSection-divCenter {
     width: 80%;
     margin: auto;
+
 }
 
 .main-thirdSection-divCenter-menu {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 80px;
     margin-bottom: 7px;
     font-style: normal;
@@ -256,7 +283,7 @@ header {
 .main-thirdSection-divCenter-popular {
     margin-bottom: 26px;
     text-align: center;
-    font-size: 32px;
+    font-size: 42px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -265,7 +292,7 @@ header {
 
 .main-thirdSection-divCenter-text {
     text-align: center;
-    font-size: 17px;
+    font-size: 27px;
     font-style: normal;
     font-weight: 200;
     padding: 0 330px;
@@ -277,21 +304,24 @@ header {
 .main-thirdSection-divCenter-DivCard {
     display: flex;
     justify-content: space-between;
+
 }
 
 .main-thirdSection-divCenter-DivCard-cards {
     background-color: white;
-
     border-radius: 16px;
+    width: 20%;
 }
 
 .main-thirdSection-divCenter-DivCard-cards-divImg {
     width: 100%;
+    margin-top: 50px;
 }
 
 .main-thirdSection-divCenter-DivCard-cards-divImg img {
     width: 100%;
     border-radius: 16px;
+   
 }
 
 .main-thirdSection-divCenter-DivCard-cards-information {
@@ -318,26 +348,39 @@ header {
 
 .main-thirdSection-divCenter-DivCard-cards-information-divPrice {
     background-color: #FFCB45;
+    border: 2px solid #FFCB45;
     display: flex;
-    padding: 8px 5px;
+    padding: 15px 5px;
     border-radius: 10px;
     justify-content: space-between;
 }
 
 .main-thirdSection-divCenter-DivCard-cards-information-divPrice-span1 {
-    font-size: 18px;
+    font-size: 25px;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 500;
 
     line-height: normal;
-    color: #1D1D1D
+    color: #1D1D1D;
+    
+}
+
+.main-thirdSection-divCenter-DivCard-cards-information-divPrice img{
+    width: 15%;
+}
+
+.main-thirdSection-divCenter-DivCard-cards-information-divPrice:hover{
+    background-color: white;
+    font-weight: 400;
+    border: 2px solid #FFCB45;
+    
 }
 
 .main-thirdSection-divCenter-DivCard-button {
     display: flex;
-    width: 166px;
+    width: 20%;
     height: 39.603px;
-    padding: 12px 24px;
+    padding: 32px 24px;
     justify-content: center;
     align-items: center;
     gap: 16px;
@@ -346,20 +389,30 @@ header {
     border: #FFCB45;
     background-color: #FFCB45;
     border-radius: 50px;
-    font-size: 14px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+   
 }
+
+.main-thirdSection-divCenter-DivCard-button:hover{
+    color: white;
+    transition: 0.6s;
+    
+}
+
 
 .main-fourthSection-divCenter {
     width: 80%;
     margin: auto;
     display: flex;
+    margin-top: 200px;
 }
 
 .main-fourthSection-divCenter-imgPerson {
     margin-right: 80px;
+    width: 90%;
 }
 
 .main-fourthSection-divCenter-divAbout {
@@ -367,16 +420,17 @@ header {
 }
 
 .main-fourthSection-divCenter-divAbout-text {
-    font-size: 22px;
+    font-size: 42px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: normal;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     color: #FFCB45;
+   
 }
 
 .main-fourthSection-divCenter-divAbout-title {
-    font-size: 32px;
+    font-size: 42px;
     padding-right: 200px;
     font-style: normal;
     font-weight: 700;
@@ -386,8 +440,8 @@ header {
 }
 
 .main-fourthSection-divCenter-divAbout-divCinza-text {
-    font-size: 17px;
-    padding-right: 190px;
+    font-size: 27px;
+    text-align: center;
     font-style: normal;
     font-weight: 200;
     line-height: normal;
@@ -395,11 +449,14 @@ header {
 }
 
 .main-fifthSection {
-    margin-top: 80px;
+    margin-top: 100px;
+    width: 100%;
+   
 }
 
+
 .main-fifthSection-divCenter {
-    width: 80%;
+    width: 70%;
     height: 300px;
     margin: auto;
     display: flex;
@@ -423,9 +480,9 @@ header {
 
 .main-fifthSection-button {
     display: flex;
-    width: 166px;
+    width: 15%;
     height: 39.603px;
-    padding: 12px 24px;
+    padding: 22px 24px;
     justify-content: center;
     align-items: center;
     gap: 16px;
@@ -508,3 +565,5 @@ button{
     text-align: center;
     padding: 40px 0;
 }
+
+
